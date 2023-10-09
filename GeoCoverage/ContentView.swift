@@ -6,17 +6,44 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    
+    @Environment(Boundaries.self) private var boundaries
+    @State private var showJSONView = false
+    @State private var geoJson = ""
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Map {
+                ForEach(boundaries.boundaries, id:\.self) { boundary  in
+                    MapPolygon(boundary)
+                }
+            }
+            .mapControls {
+                MapScaleView()
+                MapUserLocationButton() }
+            
+            HStack {
+                Button("load") {
+                    load(boundaries:boundaries)
+                    
+                }
+                
+                Spacer()
+                Button("generate json") {
+                    geoJson = generateGeoJSON(for: boundaries.boundaries)
+                    showJSONView = true
+                    print(geoJson)
+                }
+                
+            }
+            .padding()
+            
         }
-        .padding()
     }
+        
 }
 
 #Preview {

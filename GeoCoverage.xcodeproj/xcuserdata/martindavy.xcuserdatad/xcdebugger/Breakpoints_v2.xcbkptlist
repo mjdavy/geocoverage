@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DAE3270C-D7A6-4DAC-93BE-7771AAF62711"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD6C8BF1-0528-413D-B394-B6CFD7914E26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoCoverage/Networks.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "load(boundaries:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "CD6C8BF1-0528-413D-B394-B6CFD7914E26 - 34a5463f9c8911c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.Array&lt;GeoCoverage.NetworkInfo&gt;&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GeoCoverage.load() -&gt; ()"
+                  moduleName = "GeoCoverage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martindavy/source/repos/swift/GeoCoverage/GeoCoverage/Networks.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "CD6C8BF1-0528-413D-B394-B6CFD7914E26 - 34a5463f9c8911ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.Array&lt;GeoCoverage.NetworkInfo&gt;&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GeoCoverage.load() -&gt; ()"
+                  moduleName = "GeoCoverage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martindavy/source/repos/swift/GeoCoverage/GeoCoverage/Networks.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "CD6C8BF1-0528-413D-B394-B6CFD7914E26 - 34a5463f9c8911ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.Array&lt;GeoCoverage.NetworkInfo&gt;&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GeoCoverage.load() -&gt; ()"
+                  moduleName = "GeoCoverage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martindavy/source/repos/swift/GeoCoverage/GeoCoverage/Networks.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85DA14F3-1DC5-4195-A47A-6949933BC9FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoCoverage/Networks.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "load(boundaries:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

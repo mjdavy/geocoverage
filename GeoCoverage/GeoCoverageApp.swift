@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct GeoCoverageApp: App {
+    
+    @State private var boundaries = Boundaries()
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(boundaries)
         }
     }
 }
